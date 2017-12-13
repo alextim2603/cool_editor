@@ -1,0 +1,92 @@
+@import "normalize";
+@import "layout";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body{
+	background: url(../img/816831.jpg);
+	color: #88819B;
+	text-transform: capitalize;
+}
+li{
+	list-style-type: none;
+
+}
+.ba-song{
+
+}
+.ba-playlist2{
+	font-size: 80%;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+[type="number"]{
+	width: 50px;
+}
+.ba-container{
+	background: #FFF;
+	border-radius: 17px;
+	max-width: 70vh;
+	margin-top: 50px;
+	h1{
+		text-align: center;
+		font-weight: 500;
+		font-family: 'Roboto', sans-serif;
+	}
+}
+.ba-playlist2{
+	text-transform: capitalize;
+}
+.ba-song{
+	border-top: 2px solid gray;
+}
